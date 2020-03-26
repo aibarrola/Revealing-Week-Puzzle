@@ -5,16 +5,16 @@ body{
     background-color: #E1E7E0;
 }
 
-h1{ /*big title*/
-    text-align: center;
-    font-style: italic;
-    color:white;
-}
-
 div{
     margin-left: 20px;
     margin-right: 20px;
     word-wrap: break-word;
+}
+
+h1{ /*big title*/
+    text-align: center;
+    font-style: italic;
+    color:white;
 }
 
 h3{  /*title*/
