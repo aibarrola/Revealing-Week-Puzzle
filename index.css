@@ -14,6 +14,7 @@ h1{ /*big title*/
 div{
     margin-left: 20px;
     margin-right: 20px;
+    word-wrap: break-word;
 }
 
 h3{  /*title*/
@@ -31,9 +32,9 @@ h4{ /* days */
 }
 
 h5{  /*content*/
-    font-size 12px;
+    font-size: 12px;
     font-style: italic;
-    color: #6AA4B0
+    color: #6AA4B0;
     margin-left: 20px;
     margin-right: 2px;
 }
