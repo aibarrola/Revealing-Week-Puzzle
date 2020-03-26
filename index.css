@@ -5,7 +5,7 @@ body{
     background-color: #E1E7E0;
 }
 
-h1{ /*title*/
+h1{ /*big title*/
     text-align: center;
     font-style: italic;
     color:white;
@@ -19,15 +19,14 @@ div{
 h3{  /*title*/
     text-decoration: bold;
     color: #2F6D80;
-    font-size: 20px
+    font-size: 16px
 }
 
-h4{
+h4{ /* days */
     text-decoration: bold;
     color: lightblue;
-    font-size: 13px;
+    font-size: 20px;
     margin-right: 10px;
-    float: right;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
