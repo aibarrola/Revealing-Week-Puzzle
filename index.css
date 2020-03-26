@@ -20,10 +20,11 @@ div{
 h3{  /*title*/
     text-decoration: bold;
     color: #2F6D80;
-    font-size: 16px;
+    font-size: 26px;
 }
 
 h4{ /* days */
+    text-align: center;
     text-decoration: bold;
     color: lightblue;
     font-size: 20px;
@@ -32,7 +33,7 @@ h4{ /* days */
 }
 
 h5{  /*content*/
-    font-size: 12px;
+    font-size: 15px;
     font-style: italic;
     color: #6AA4B0;
     margin-left: 20px;
