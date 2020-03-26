@@ -5,7 +5,7 @@ body{
     background-color: #E1E7E0;
 }
 
-h1{
+h1{ /*title*/
     text-align: center;
     font-style: italic;
     color:white;
@@ -16,12 +16,22 @@ div{
     margin-right: 20px;
 }
 
-h4{
+h3{  /*title*/
     text-decoration: bold;
     color: #2F6D80;
 }
 
-h5{
+h4{
+    text-decoration: bold;
+    color: lightblue;
+    font-size: 13px;
+    margin-right: 10px;
+    float:right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+h5{  /*content*/
     font-size 12px;
     font-style: italic;
     color: #6AA4B0
