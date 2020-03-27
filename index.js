@@ -26,4 +26,13 @@ function showImage() {
     }
 
 
-    
+    function showMessage() {
+        var secretcode = "Joshua";
+        var input = document.getElementById("firstname").value;
+        var msg = document.getElementById("day3message");
+        if (input === secretcode){
+                msg.style.visibility = 'visible';
+            }else{
+                alert("Write your first name");
+            } 
+        }

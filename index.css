@@ -11,6 +11,10 @@ div{
     word-wrap: break-word;
 }
 
+p{
+    color: #6AA4B0; 
+}
+
 #secretcode{
     font-size: 15px;
     font-style: italic;
@@ -18,13 +22,14 @@ div{
     text-align: center;
 }
 
+#day3message{
+    visibility: hidden;
+}
+
 .center{
     text-align: center;
 }
 
-/* #hex{
-    font-size: 12px;
-} */
 
 hr{
     border: 6px solid white;
