@@ -34,7 +34,7 @@ function showImage() {
                 msg.style.visibility = 'visible';
                 msg.style.display = 'block';
             }else{
-                alert("Write your first name");
+                alert("Wrong hoe");
             } 
         }
 
