@@ -71,5 +71,6 @@ h5{  /*content*/
 }
 
 #starterpack{
-    display: none;
+    /* display: none; */
+    visibility: hidden;
 }

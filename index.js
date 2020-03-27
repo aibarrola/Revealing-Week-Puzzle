@@ -15,12 +15,13 @@
 
 
 function showHide() {
-    var secretcode = "123";
+    var secretcode = "wrong motherfucker";
     var input = document.getElementById("secretcode").value;
     var img = document.getElementById("starterpack");
     if (input === secretcode){
-            img.style.display = 'block';
+            //img.style.display = 'block';
+            img.style.visibility = 'visible';
         }else{
-            alert("that is wrong motherfucker");
+            alert("secret code is wrong motherfucker");
         } 
     }
