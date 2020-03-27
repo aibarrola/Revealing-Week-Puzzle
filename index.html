@@ -64,8 +64,8 @@
 
       <div class="center">
           <h3> Reveal your message </h3>
-          <form onSubmit="Javascript:showImage()">
-          <p id="secretcode"> Secret Code: <input type="text"> </p>
+          <form method="post" onSubmit="Javascript:showHide(); return false;">
+          <p> Secret Code: <input type="text" id="secretcode"> </p>
           <input type="submit" value="Submit">
           </form>
       </div>
