@@ -27,12 +27,23 @@ function showImage() {
 
 
     function showMessage() {
-        var secretcode = "Joshua";
+        var secretcode = "Synergy";
         var input = document.getElementById("firstname").value;
         var msg = document.getElementById("day3message");
         if (input === secretcode){
                 msg.style.visibility = 'visible';
+                msg.style.display = 'block';
             }else{
                 alert("Write your first name");
             } 
+        }
+
+
+    function giveHint() {
+        var hint = document.getElementById("hint");
+        if (hint.style.display === "none") {
+        hint.style.display = "block";
+            }else{
+                hint.style.display = "none";
+            }
         }

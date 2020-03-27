@@ -22,10 +22,6 @@ p{
     text-align: center;
 }
 
-#day3message{
-    visibility: hidden;
-}
-
 .center{
     text-align: center;
 }
@@ -78,4 +74,14 @@ h5{  /*content*/
 #starterpack{
     display: none;
     visibility: hidden;
+}
+
+#day3message{
+    visibility: hidden;
+    display:none;
+}
+
+#hint{
+    display:none;
+    border: none;
 }
