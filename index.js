@@ -19,12 +19,7 @@ function showHide() {
     var input = document.getElementById("secretcode").value;
     var img = document.getElementById("starterpack");
     if (input === secretcode){
-        if (img.style.display == 'none') {
             img.style.display = 'block';
-          }
-          else {
-            img.style.display = 'none';
-          }
         }else{
             alert("that is wrong motherfucker");
         } 
