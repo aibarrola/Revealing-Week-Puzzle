@@ -1,5 +1,4 @@
-
-
+//-----FIRST ATTEMPT-----//
 // function showImage(){
 //     var secretcode = "123";
 //     var input = document.getElementById("secretcode").value;
@@ -14,12 +13,12 @@
 // }
 
 
-function showHide() {
+function showImage() {
     var secretcode = "wrong motherfucker";
     var input = document.getElementById("secretcode").value;
     var img = document.getElementById("starterpack");
     if (input === secretcode){
-            //img.style.display = 'block';
+            img.style.display = 'block';
             img.style.visibility = 'visible';
         }else{
             alert("secret code is wrong motherfucker");
