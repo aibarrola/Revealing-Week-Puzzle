@@ -21,6 +21,9 @@ function showImage() {
             img.style.display = 'block';
             img.style.visibility = 'visible';
         }else{
-            alert("secret code is wrong motherfucker");
+            alert("Secret Code is wrong motherfucker");
         } 
     }
+
+
+    
