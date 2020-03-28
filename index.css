@@ -90,6 +90,49 @@ h5{  /*content*/
     border: none;
 }
 
+#hint2{
+    display:none;
+    border: none;
+}
+
+.warning{
+    color: red;
+    font-size: 50px;
+}
+
+#introtitle{
+    color: red;
+    font-size: 30px;
+}
+
+#intromessage{
+    color: white;
+    font-size: 25px;
+    border-bottom: none;
+    border-left: none;
+}
+
+#intro{
+    display: none;
+    visibility: none;
+    border-bottom:none;
+    border-left:none; 
+}
+
+.block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: red;
+    padding: 14px 28px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+
+  }
+
+
+
 img:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s;

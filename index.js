@@ -47,3 +47,27 @@ function showImage() {
                 hint.style.display = "none";
             }
         }
+
+        function giveHint2() {
+            var hint = document.getElementById("hint2");
+            if (hint.style.display === "none") {
+            hint.style.display = "block";
+                }else{
+                    hint.style.display = "none";
+                }
+            }
+
+        function showIntro() {
+            var secretcode = "Ilovemyading";
+            var input = document.getElementById("secretcode2").value;
+            var text = document.getElementById("intro");
+            if (input === secretcode){
+                    text.style.display = 'block';
+                    text.style.visibility = 'visible';
+                    document.body.style.backgroundColor = "black";
+
+                }else{
+                    alert("I believe in you! You can figure this one out.");
+                } 
+            }
+
