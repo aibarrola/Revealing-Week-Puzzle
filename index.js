@@ -38,6 +38,18 @@ function showImage() {
             } 
         }
 
+        function showFam() {
+            var secretcode = "ENFJ";
+            var input = document.getElementById("16type").value;
+            var msg = document.getElementById("chickenpic");
+            if (input === secretcode){
+                    msg.style.visibility = 'visible';
+                    msg.style.display = 'block';
+                }else{
+                    alert("Check the 16 personality type website");
+                } 
+            }
+
 
     function giveHint() {
         var hint = document.getElementById("hint");

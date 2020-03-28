@@ -85,6 +85,11 @@ h5{  /*content*/
     display:none;
 }
 
+#chickenpic{
+    visibility:hidden;
+}
+
+
 #hint{
     display:none;
     border: none;
