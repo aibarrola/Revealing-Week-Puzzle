@@ -13,3 +13,27 @@ body{
     display: inline-flex;
     font-size: 18px;
 }
+
+.lpic{
+    width: 50%;
+    height: 300px;
+}
+
+.rpic{
+    width: 50%;
+    height: 300px;
+}
+
+.choices{
+    color:white;
+    font-size: 30px;
+}
+
+
+#death{
+    font-size: 100px;
+    color:red;
+    text-align:center;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
