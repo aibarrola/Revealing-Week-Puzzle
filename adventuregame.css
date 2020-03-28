@@ -1,0 +1,15 @@
+body{
+    background-color: black;
+}
+
+
+.message{
+    color: black;
+    background-color: grey;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    text-align: center;
+    display: inline-flex;
+    font-size: 18px;
+}
