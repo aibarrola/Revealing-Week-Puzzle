@@ -71,3 +71,12 @@ function showImage() {
                 } 
             }
 
+        
+            function openList() {
+                var hint = document.getElementById("list");
+                if (hint.style.display === "none") {
+                hint.style.display = "block";
+                    }else{
+                        hint.style.display = "none";
+                    }
+                }
